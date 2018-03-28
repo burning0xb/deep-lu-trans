@@ -1,11 +1,11 @@
 {
   "name": "deep-lu-trans",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "json or array keys deep trans to lower or upper case",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "rm -rf ./lib && babel -d ./lib ./src -s"
+    "_prepublish": "rm -rf ./lib && babel -d ./lib ./src -s"
   },
   "repository": {
     "type": "git",

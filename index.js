@@ -1,7 +1,7 @@
 'use strict'
 require("babel-core/register");
 require("babel-polyfill");
-import Transform from './lib/Transform';
+const Transform = require('./lib/Transform');
 
 const t = new Transform();
 
