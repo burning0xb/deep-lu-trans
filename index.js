@@ -1,8 +1,3 @@
-'use strict'
-require("babel-core/register");
-require("babel-polyfill");
-const Transform = require('./lib/Transform');
-
-const t = new Transform();
+const t = require('./lib');
 
 module.exports = t;

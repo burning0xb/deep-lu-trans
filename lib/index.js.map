@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["require","t"],"mappings":";;;;;;AAEA;;;;;;AAFAA,QAAQ,gBAAR;AACAA,QAAQ,qBAAR;;;AAGA,IAAMC,IAAI,yBAAV;;kBAEeA,C","file":"index.js","sourcesContent":["require('babel-polyfill');\nrequire('babel-core/register');\nimport Transform from './Transform';\n\nconst t = new Transform();\n\nexport default t;\n"]}
