@@ -1,6 +1,6 @@
 {
   "name": "deep-lu-trans",
-  "version": "1.1.0",
+  "version": "1.0.5",
   "description": "json or array keys deep trans to lower or upper case",
   "main": "index.js",
   "scripts": {
